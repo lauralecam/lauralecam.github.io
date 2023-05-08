@@ -514,6 +514,23 @@ footer a:hover{
 
 @media (max-width: 767px){
     .about .alwayson{display:none}
+
+    .about .text-1{
+        margin-top: 15%;
+    }
+
+    .about .text-2{
+        margin-left: 65%;
+        margin-top: -25%;
+    }
+    .about .text-3{
+
+        margin-top: 50%;
+    }
+    .about .text-4{
+        margin-left: 65%;
+        margin-top: 5%;
+    }
 }
 .about .rectangle{
     -webkit-transition:1.3s all cubic-bezier(0.23, 1, 0.32, 1);
@@ -540,10 +557,10 @@ footer a:hover{
      position:relative;
  }
 .about-active .rectangle{
-    height:450px
+    height:400px
 }
 
-.cybersecurity
+.kiko
 {
     background:#211A44;
     padding:260px 0px 310px;
@@ -554,24 +571,24 @@ footer a:hover{
 }
 
 @media (min-width: 1800px){
-    .cybersecurity{
+    .kiko{
         background-size:contain
     }}
 @media (max-width: 767px){
-    .cybersecurity{
+    .kiko{
         background-position: bottom;
         padding:150px 0px
     }}
 
-.cybersecurity .graph {
-    height: 400px;
+.kiko .graph {
+    height: 200px;
     position: relative
 }
 @media (max-width: 961px){
-    .cybersecurity .graph{
+    .kiko .graph{
         display:none
     }}
-.cybersecurity .graph-line{
+.kiko .graph-line{
     -webkit-transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
     -moz-transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
     -ms-transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
@@ -584,7 +601,7 @@ footer a:hover{
     left:-5%;
     bottom:-260px
 }
-.cybersecurity .line-2{
+.kiko .line-2{
      -webkit-transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
      -moz-transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
      -ms-transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
@@ -592,7 +609,7 @@ footer a:hover{
      transition:1.5s all cubic-bezier(0.23, 1, 0.32, 1);
      left:105%
  }
-.cybersecurity-active .graph-line{
+.kiko-active .graph-line{
      height:930px
  }
 
@@ -820,7 +837,7 @@ footer a:hover{
 .one {
     grid-column: 1 / 3;
     grid-row: 1 / 3;
-    box-sizing: border-box;width: 100%;border: double #303030 5px;padding: 5px;
+    box-sizing: border-box;width: 100%;border: double #303030 5px;padding: 20px;
 }
 .two {
     grid-column: 1;
@@ -842,3 +859,4 @@ footer a:hover{
     grid-row: 5 / 7;
     box-sizing: border-box;width: 100%;border: double #303030 5px;padding: 5px;
 }
+

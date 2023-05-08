@@ -17,10 +17,10 @@ var Navigation = (function($) {
 
         }, { offset:'50px' });
 
-        // cybersecurity waypoint
-        $('#cybersecurity').waypoint(function(direction) {
+        // kiko waypoint
+        $('#kiko').waypoint(function(direction) {
 
-            $('.cybersecurity').toggleClass('cybersecurity-active');
+            $('.kiko').toggleClass('kiko-active');
 
             setNav(direction);
 
